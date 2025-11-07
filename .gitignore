@@ -1,0 +1,18 @@
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sonstiges
+.DS_Store
+.idea/
+.vscode/
