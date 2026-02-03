@@ -2,12 +2,11 @@ passwords = [ "Pass123",
 "SecurePassword1", "weak",
 "MyP@ssw0rd", "NOLOWER123"]
 
-score = 0
-score1 = 0
-score2 = 0
-zeichen = 0
-
 for password in passwords:
+    score = 0      # Großbuchstaben
+    score1 = 0     # Kleinbuchstaben
+    score2 = 0     # Zahlen
+    zeichen = 0    # Länge >= 8
     for char in password:
         if char.isupper():
             score = 1
